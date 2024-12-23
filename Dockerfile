@@ -25,4 +25,6 @@ RUN npm install
 # Default command to run on container start (e.g., run app)
 CMD ["npm", "start"]
 
+EXPOSE 80 22
+
 
