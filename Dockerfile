@@ -1,8 +1,12 @@
 # Use an official Node.js image as the base image (you can replace this with your desired base image)
-FROM node
+FROM node:latest
 
 # Set the working directory
 WORKDIR /myapp
+
+RUN node -v
+
+RUN npm -v
 
 # Install Git and other dependencies
 RUN apt-get update && apt-get install -y git
@@ -18,13 +22,13 @@ RUN git clone https://github.com/shrutinasre/ReactMiniProject .
 COPY . .
 
 # Run npm install to install any dependencies (if working with a Node.js app)
-RUN npm install
+RUN npm install --legacy-peer-deps --quiet
 
 # Add any other commands you need for your app
 
 # Default command to run on container start (e.g., run app)
 CMD ["npm", "start"]
 
-EXPOSE 80 22
+EXPOSE 80
 
 
