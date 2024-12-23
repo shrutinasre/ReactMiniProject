@@ -1,0 +1,201 @@
+.headerTop {
+  height: 30px;
+  font-size: 13px;
+}
+.headerTop a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.headerTop .dropdown-toggle {
+  font-size: 13px;
+}
+
+.headerTop .seperator {
+  color: #ccc;
+}
+.headerMid {
+  height: 105px;
+}
+.logo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  text-decoration: none solid rgb(101, 101, 101);
+  word-spacing: 0px;
+}
+.h-100p {
+  height: 100%;
+}
+.headerMid .searchBar .input-group {
+  border: 1px solid #cccccc;
+  border-radius: 50px;
+}
+.headerMid .searchBar .form-control {
+  border: none;
+  width: 275px;
+}
+.headerMid .seperator {
+  color: #ccc;
+}
+.headerMid .input-group button {
+  border-radius: 50px !important;
+}
+.iconSet {
+  border: 2px solid #ffc107;
+  border-radius: 50px;
+}
+.headerMid .cart a {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+.iconSet:hover {
+  border: 2px solid #c2370d;
+}
+
+.w-100p {
+  width: 100%;
+}
+
+.headerBottom .dropdown-toggle.btn {
+  position: absolute;
+  top: -25px;
+  bottom: -26px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.headerBottom .navbar-nav {
+  margin-left: 10rem;
+}
+
+.headerBottom .start .dropdown-menu[data-bs-popper] {
+  top: 44px;
+  left: -1px;
+  width: 231px;
+  margin-top: 0.125rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.headerBottom .start .btn-dark:focus {
+  box-shadow: none !important;
+}
+.carousel {
+  padding: 30px;
+  background-color: #d2dae2;
+  margin-top: -65px;
+  margin-bottom: -55px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  margin: 8px;
+}
+.innerItem {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 50px;
+  /* padding: 15px; */
+}
+.caroProdCatgry {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.caroProdName {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.caroProdDetail {
+  width: 80%;
+}
+
+.caroProdDiscAmt {
+  background-color: #ffc107;
+  padding: 15px 70px;
+  border: 0px solid #ccc;
+  border-radius: 50px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin: -1px;
+  margin-right: 75px;
+  margin-top: 20px;
+}
+.shopNow {
+  margin-top: 20px;
+  border-radius: 50px !important;
+}
+.caroProdAmt {
+  text-decoration: line-through;
+  margin-top: 20px;
+}
+a.carousel-control-prev {
+  left: -60px;
+}
+/* a.carousel-control-prev span {
+} */
+
+a.carousel-control-next {
+  right: -60px;
+}
+.compareCard {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #ffa801 !important;
+  width: 100%;
+  height: 100%;
+  padding-left: 5px;
+  padding-right: 20px;
+}
+.compareCard .card-body {
+  background-color: transparent !important;
+}
+.card border-secondary {
+  background-color: #d2dae2;
+}
+.bg {
+  background-color: #f7f1e3;
+}
+.compare2 {
+  background-color: #d2dae2;
+  padding-top: 45;
+}
+.corner {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.titleCompare {
+  color: #fc9905;
+}
+.titleImage {
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+}
+.compareCard4 {
+  padding: 0px;
+}
+.row1 {
+  padding-left: 10px;
+  padding-right: 0px;
+}
+.row2 {
+  padding-left: 10px;
+  padding-right: 0px;
+}
+.row0 {
+  padding-top: 10px;
+}
+.comp4 {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+Container {
+  margin-top: 25 px;
+  margin-right: 92 px;
+}
